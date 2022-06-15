@@ -1,7 +1,4 @@
 # 代理
-DOMAIN-SUFFIX,autopatchhk.yuanshen.com
-DOMAIN-SUFFIX,genshin.hoyoverse.com
-DOMAIN-SUFFIX,download.samba.org
 DOMAIN-SUFFIX,cloudsilk.io
 DOMAIN-SUFFIX,mmjcbot.ml
 DOMAIN-KEYWORD,jsdelivr
