@@ -4,26 +4,33 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
-proxy-providers:
-  provider1:
-    type: http
-    url: https://littleuniverse.de/api/v1/client/subscribe?token=902f5f2369e628300c1ac6aca47bcf76
-    interval: 86400
-    path: ./testyaml.yaml
+proxies:
+    - { name: 'SG新加坡 01', type: vmess, server: bhef6p7hyjpodmkfp4hr.incomparablebeauty.top, port: 22193, uuid: 700c1ded-c0f5-4dd9-9dad-8c649e9c3627, alterId: 0, cipher: auto, udp: true }
+    - { name: 'SG新加坡 02', type: vmess, server: fuw4pcmhvhzkdaubztnb.incomparablebeauty.top, port: 22193, uuid: 700c1ded-c0f5-4dd9-9dad-8c649e9c3627, alterId: 0, cipher: auto, udp: true }
 proxy-groups:
-  - name: UseProvider
-    type: select
-    use:
-      - provider1
-    proxies:
-      - DIRECT
+    - { name: '🚀 节点选择', type: select, proxies: ['🕹 自动选择', 'SG新加坡 01', 'SG新加坡 02'] }
+    - { name: '📺 国际影视', type: select, proxies: ['🚀 节点选择', 'SG新加坡 01', 'SG新加坡 02' }
+    - { name: '📽️ 内地影视', type: select, proxies: [DIRECT, '🚀 节点选择', 'SG新加坡 01', 'SG新加坡 02'] }
+    - { name: '🕹 自动选择', type: url-test, url: 'http://cp.cloudflare.com/generate_204', interval: 300, proxies: ['SG新加坡 01', 'SG新加坡 02'] }
+rule-providers:
+    Unbreak: { type: http, behavior: classical, path: ./RuleSet/Unbreak.yaml, url: 'https://littleuniverse.de/gh/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml', interval: 86400 }
+    Streaming: { type: http, behavior: classical, path: ./RuleSet/StreamingMedia/Streaming.yaml, url: 'https://littleuniverse.de/gh/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml', interval: 86400 }
+    StreamingSE: { type: http, behavior: classical, path: ./RuleSet/StreamingMedia/StreamingSE.yaml, url: 'https://littleuniverse.de/gh/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml', interval: 86400 }
+    Global: { type: http, behavior: classical, path: ./RuleSet/Global.yaml, url: 'https://littleuniverse.de/gh/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml', interval: 86400 }
+    China: { type: http, behavior: classical, path: ./RuleSet/China.yaml, url: 'https://littleuniverse.de/gh/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml', interval: 86400 }
+    ChinaIP: { type: http, behavior: ipcidr, path: ./RuleSet/Extra/ChinaIP.yaml, url: 'https://littleuniverse.de/gh/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml', interval: 86400 }
 rules:
-    - IP-CIDR,192.168.0.0/16,DIRECT
-    - IP-CIDR,10.0.0.0/8,DIRECT
-    - IP-CIDR,172.16.0.0/12,DIRECT
-    - IP-CIDR,127.0.0.0/8,DIRECT
-    - IP-CIDR,100.64.0.0/10,DIRECT
-    - IP-CIDR,224.0.0.0/4,DIRECT
-    - IP-CIDR,fe80::/10,DIRECT
-    - RULE-SET,ChinaIP,DIRECT
-    - MATCH,DIRECT
+    - 'DOMAIN,littleuniverse.de,DIRECT'
+    - 'RULE-SET,Unbreak,DIRECT'
+    - 'RULE-SET,Streaming,📺 国际影视'
+    - 'RULE-SET,StreamingSE,📽️ 内地影视'
+    - 'RULE-SET,Global,🚀 节点选择'
+    - 'IP-CIDR,192.168.0.0/16,DIRECT'
+    - 'IP-CIDR,10.0.0.0/8,DIRECT'
+    - 'IP-CIDR,172.16.0.0/12,DIRECT'
+    - 'IP-CIDR,127.0.0.0/8,DIRECT'
+    - 'IP-CIDR,100.64.0.0/10,DIRECT'
+    - 'IP-CIDR,224.0.0.0/4,DIRECT'
+    - 'IP-CIDR,fe80::/10,DIRECT'
+    - 'RULE-SET,ChinaIP,DIRECT'
+    - 'MATCH,🚀 节点选择'
