@@ -7,8 +7,7 @@ external-controller: :9090
 proxy-providers:
   provider1:
     type: http
-    url: https://uuu.glass/api/v1/client/subscribe?token=9cf49a37600f26546cdffcb8c3f01e8d
-    interval: 3600
+    url: https://raw.githubusercontent.com/linger040831/rulses/main/air.yaml
     path: ./provider1.yaml
     health-check:
       enable: true
