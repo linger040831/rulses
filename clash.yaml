@@ -4,9 +4,6 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
-proxies:
-    - { name: 'SG新加坡 01', type: vmess, server: bhef6p7hyjpodmkfp4hr.incomparablebeauty.top, port: 22193, uuid: 700c1ded-c0f5-4dd9-9dad-8c649e9c3627, alterId: 0, cipher: auto, udp: true }
-    - { name: 'SG新加坡 02', type: vmess, server: fuw4pcmhvhzkdaubztnb.incomparablebeauty.top, port: 22193, uuid: 700c1ded-c0f5-4dd9-9dad-8c649e9c3627, alterId: 0, cipher: auto, udp: true }
 proxy-groups:
     - { name: '🚀 节点选择', type: select, proxies: ['🕹 自动选择', 'SG新加坡 01', 'SG新加坡 02'] }
     - { name: '📺 国际影视', type: select, proxies: ['🚀 节点选择', 'SG新加坡 01', 'SG新加坡 02' }
