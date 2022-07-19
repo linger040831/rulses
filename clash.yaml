@@ -9,7 +9,7 @@ proxy-providers:
     type: http
     url: https://littleuniverse.de/api/v1/client/subscribe?token=902f5f2369e628300c1ac6aca47bcf76
     interval: 86400
-    path: ./provider1.yaml
+    path: ./testyaml.yaml
 proxy-groups:
   - name: UseProvider
     type: select
