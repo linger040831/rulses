@@ -17,7 +17,7 @@ proxy-groups:
       - provider1
     proxies:
       - DIRECT
- rules:
+rules:
     - DOMAIN,littleuniverse.de,DIRECT
     - RULE-SET,Unbreak,DIRECT
     - RULE-SET,Streaming,UseProvider
