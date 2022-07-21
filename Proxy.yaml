@@ -5,8 +5,7 @@
   - DOMAIN-SUFFIX,samba.org
   - DOMAIN-SUFFIX,balena.io
   - DOMAIN-SUFFIX,sdcard.org
-
-  # MyList && Other
+# MyList && Other
   - DOMAIN-SUFFIX,1password.com
   - DOMAIN-SUFFIX,adguard.org
   - DOMAIN-SUFFIX,bit.no.com
@@ -26,7 +25,6 @@
   - DOMAIN-SUFFIX,tumbex.com
   - DOMAIN-SUFFIX,twdvd.com
   - DOMAIN-SUFFIX,unsplash.com
-
 # 国外域名
   - DOMAIN-SUFFIX,eu
   - DOMAIN-SUFFIX,hk
@@ -36,8 +34,7 @@
   - DOMAIN-SUFFIX,tw
   - DOMAIN-SUFFIX,uk
   - DOMAIN-SUFFIX,us
-
-  - # 国外域名关键字
+# 国外域名关键字
   - DOMAIN-KEYWORD,1e100
   - DOMAIN-KEYWORD,abema
   - DOMAIN-KEYWORD,appledaily
