@@ -1,5 +1,20 @@
 proxies:  
 
+  - name: 美国4837
+    type: trojan
+    server: cfla.mmjcbot.ml
+    port: 443
+    password: 61045f33-1588-9658-5709-431841bd4e45
+    sni: cfla.mmjcbot.ml
+    skip-cert-verify: false
+
+  - name: 美国4837ss
+    type: ss
+    server: 37.123.192.9
+    port: 23021
+    password: sJSZ1QDUuM
+    cipher: aes-256-gcm
+
 proxy-groups:
 
   - name: 节点选择
