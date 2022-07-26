@@ -6,6 +6,7 @@ payload:
   - DOMAIN-SUFFIX,samba.org
   - DOMAIN-SUFFIX,balena.io
   - DOMAIN-SUFFIX,sdcard.org
+  - DOMAIN-SUFFIX,pixelexperience.org
 # MyList && Other
   - DOMAIN-SUFFIX,1password.com
   - DOMAIN-SUFFIX,adguard.org
