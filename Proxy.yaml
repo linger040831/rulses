@@ -7,6 +7,7 @@ payload:
   - DOMAIN-SUFFIX,balena.io
   - DOMAIN-SUFFIX,sdcard.org
   - DOMAIN-SUFFIX,pixelexperience.org
+  - DOMAIN-SUFFIX,gitbook.io
 # MyList && Other
   - DOMAIN-SUFFIX,1password.com
   - DOMAIN-SUFFIX,adguard.org
