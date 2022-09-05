@@ -4,8 +4,6 @@ payload:
   - DOMAIN-SUFFIX,cloudsilk.io
   - DOMAIN-SUFFIX,union.moe
   - DOMAIN-SUFFIX,yinfans.me
-  - DOMAIN-SUFFIX,jsdelivr.net
-  - DOMAIN-SUFFIX,fastgit.org  
   - DOMAIN-SUFFIX,423down.com
 #联想
   - DOMAIN-SUFFIX,blurdev.com
