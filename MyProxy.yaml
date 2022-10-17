@@ -13,3 +13,6 @@ payload:
   - DOMAIN-SUFFIX,dht.transmissionbt.com
   - DOMAIN-SUFFIX,dht.aelitits.com
   - DOMAIN-SUFFIX,router.utorrent.com
+  - DOMAIN-KEYWORD,announce
+  - DOMAIN-KEYWORD,torrent
+  - DOMAIN-KEYWORD,tracker
