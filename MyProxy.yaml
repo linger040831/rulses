@@ -17,3 +17,4 @@ payload:
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,torrent
   - DOMAIN-KEYWORD,tracker
+  - DOMAIN-SUFFIX,img.2222.moe
