@@ -18,3 +18,5 @@ payload:
   - DOMAIN-KEYWORD,torrent
   - DOMAIN-KEYWORD,tracker
   - DOMAIN-SUFFIX,img.2222.moe
+  - DOMAIN-SUFFIX,api.ipify.org
+  - DOMAIN-SUFFIX,ip-api.com
