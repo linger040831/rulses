@@ -1,0 +1,10 @@
+  - DOMAIN-SUFFIX,dht.libtorrent.org
+  - DOMAIN-SUFFIX,router.bittorrent.com
+  - DOMAIN-SUFFIX,router.utorrent.com
+  - DOMAIN-SUFFIX,dht.transmissionbt.com
+  - DOMAIN-SUFFIX,dht.aelitits.com
+  - DOMAIN-SUFFIX,router.utorrent.com
+  - DOMAIN-SUFFIX,qbittorrent.org  
+  - DOMAIN-KEYWORD,announce
+  - DOMAIN-KEYWORD,torrent
+  - DOMAIN-KEYWORD,tracker
