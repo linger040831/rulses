@@ -11,4 +11,8 @@ payload:
   - DOMAIN-SUFFIX,api.ipify.org
   - DOMAIN-SUFFIX,ip-api.com
   - DOMAIN-SUFFIX,asmr.one
+  - DOMAIN-SUFFIX,cdn.plyr.io
+  - DOMAIN-SUFFIX,raw.kiko-play-niptan.one
+  - DOMAIN-SUFFIX,darkreader.org
+  - DOMAIN-SUFFIX,okx-httpdns.com
   - DOMAIN-KEYWORD,trle5
