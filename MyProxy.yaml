@@ -1,5 +1,6 @@
 payload:
 # 代理
+  - DOMAIN-SUFFIX,docs.metacubex.one
   - DOMAIN-SUFFIX,vcb-s.com
   - DOMAIN-SUFFIX,skk.moe
   - DOMAIN-SUFFIX,samba.org
