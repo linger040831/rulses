@@ -18,5 +18,18 @@ payload:
   - DOMAIN-SUFFIX,okx-httpdns.com
   - DOMAIN-SUFFIX,bbs.acgrip.com
   - DOMAIN-SUFFIX,imem.app
+
+
+  - DOMAIN-SUFFIX,eu
+  - DOMAIN-SUFFIX,hk
+  - DOMAIN-SUFFIX,jp
+  - DOMAIN-SUFFIX,kr
+  - DOMAIN-SUFFIX,sg
+  - DOMAIN-SUFFIX,tw
+  - DOMAIN-SUFFIX,uk
+  - DOMAIN-SUFFIX,us
+  - DOMAIN-SUFFIX,ca
+  
   - DOMAIN-KEYWORD,charontv
   - DOMAIN-KEYWORD,trle5
+  
