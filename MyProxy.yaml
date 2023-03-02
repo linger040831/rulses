@@ -5,4 +5,5 @@ payload:
   - DOMAIN-KEYWORD,trle5
   
   - DOMAIN-SUFFIX,okex.com
-  - DOMAIN-SUFFIX,okx.com
+  - DOMAIN-KEYWORD,okx
+  - DOMAIN-KEYWORD,okex
