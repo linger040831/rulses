@@ -1,7 +1,8 @@
 payload:
-  - DOMAIN-SUFFIX,vcb-s.com
   - DOMAIN-SUFFIX,pixelexperience.org
   
   - DOMAIN-SUFFIX,darkreader.org
   - DOMAIN-KEYWORD,trle5
   
+  - DOMAIN-SUFFIX,okex.com
+  - DOMAIN-SUFFIX,okx.com
