@@ -2,5 +2,7 @@ payload:
   - DOMAIN-SUFFIX,pixelexperience.org
   - DOMAIN-SUFFIX,darkreader.org
   - DOMAIN-SUFFIX,play.charontv.com
+  - DOMAIN-SUFFIX,docs.metacubex.one
+  
   - DOMAIN-KEYWORD,trle5
   
