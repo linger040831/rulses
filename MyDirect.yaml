@@ -2,3 +2,4 @@ payload:
   - DOMAIN-SUFFIX,cn.ddns.us
   - DOMAIN-SUFFIX,clash.razord.top
   - DOMAIN-SUFFIX,yacd.haishan.me
+  - IP-CIDR,192.46.230.178/32
