@@ -1,2 +1,3 @@
 payload:
-  - DOMAIN-KEYWORD,charontv
+#  - DOMAIN-KEYWORD,charontv
+  - DOMAIN-SUFFIX,emby2.misakaf.org
