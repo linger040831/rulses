@@ -3,6 +3,7 @@ payload:
   - DOMAIN-SUFFIX,darkreader.org
   - DOMAIN-SUFFIX,play.charontv.com
   - DOMAIN-SUFFIX,docs.metacubex.one
+  - DOMAIN-SUFFIX,nnr.moe
   
   - DOMAIN-KEYWORD,trle5
   - DOMAIN-SUFFIX,vcb-s.com
