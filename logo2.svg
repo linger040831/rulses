@@ -1,0 +1,13 @@
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <rect fill="#5bcefa" stroke="#000" width="600" height="120" id="svg_8" y="480" x="0" stroke-width="0"/>
+  <path fill="none" stroke="#000" stroke-width="0" id="svg_26" d="m-444,256c1,0 2,0 3,0c2,0 4.85077,1.21005 9,4c4.83881,3.2536 11,6 19,12c8,6 15.4577,11.45923 25,20c8.43018,7.54535 15.78152,16.17877 24,26c6.82196,8.15234 11.91895,15.05859 17,22c2.95331,4.03461 6,8 9,11l1,1l0,1"/>
+  <rect id="svg_1" height="5.3" width="32" stroke-width="0" stroke="#000" fill="#5bcefa"/>
+  <rect x="0" y="26.7" id="svg_2" height="5.3" width="32" stroke-width="0" stroke="#000" fill="#5bcefa"/>
+  <rect id="svg_3" height="5.3" width="32" y="5.3" x="0" stroke-width="0" stroke="#000" fill="#f3a9b8"/>
+  <rect id="svg_4" height="5" width="32" y="22" x="0" stroke-width="0" stroke="#000" fill="#f3a9b8"/>
+  <text stroke-width="0" font-weight="normal" font-style="normal" transform="matrix(1 0 0 1 0 0)" xml:space="preserve" text-anchor="start" font-family="'Red Hat Display'" font-size="8" id="svg_6" y="19.15625" x="4.00001" stroke="#000" fill="#000000">新干线</text>
+ </g>
+
+</svg>
