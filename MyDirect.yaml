@@ -3,5 +3,5 @@ payload:
   - DOMAIN-SUFFIX,yacd.haishan.me
   - DOMAIN-SUFFIX,yacd.metacubex.one
   - DOMAIN-SUFFIX,clash.metacubex.one
-  - DOMAIN-SUFFIX,http://checkipv6.dyndns.com
+  - DOMAIN-SUFFIX,checkipv6.dyndns.com
   - DOMAIN-KEYWORD,pttime
