@@ -1,2 +1,3 @@
 payload:
   - DOMAIN-SUFFIX,push.apple.com
+  - DOMAIN-SUFFIX,mtalk.google.com
