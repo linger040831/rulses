@@ -4,4 +4,8 @@ payload:
   - DOMAIN-SUFFIX,yacd.metacubex.one
   - DOMAIN-SUFFIX,clash.metacubex.one
   - DOMAIN-SUFFIX,checkipv6.dyndns.com
+  - DOMAIN-SUFFIX,pay.340023435.online
+  - DOMAIN-SUFFIX,go.etopay.top
+  - DOMAIN-SUFFIX,miaopay.online
+  
   - DOMAIN-KEYWORD,pttime
