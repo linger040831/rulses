@@ -7,5 +7,7 @@ payload:
   - DOMAIN-SUFFIX,pay.340023435.online
   - DOMAIN-SUFFIX,go.etopay.top
   - DOMAIN-SUFFIX,miaopay.online
+  - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
+
   
   - DOMAIN-KEYWORD,pttime
