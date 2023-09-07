@@ -8,6 +8,6 @@ payload:
   - DOMAIN-SUFFIX,go.etopay.top
   - DOMAIN-SUFFIX,miaopay.online
   - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
-
+  - DOMAIN-SUFFIX,upos-sz-mirroraliov.bilivideo.com
   
   - DOMAIN-KEYWORD,pttime
