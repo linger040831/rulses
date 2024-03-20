@@ -9,5 +9,6 @@ payload:
   - DOMAIN-SUFFIX,miaopay.online
   - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,upos-sz-mirroraliov.bilivideo.com
+  - DOMAIN-SUFFIX,alist.xgx.icu
   
   - DOMAIN-KEYWORD,pttime
