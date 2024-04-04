@@ -1,7 +1,4 @@
-payload:
-  - DOMAIN-SUFFIX,clash.razord.top
-  - DOMAIN-SUFFIX,yacd.haishan.me
-  - DOMAIN-SUFFIX,yacd.metacubex.one
-  - DOMAIN-SUFFIX,clash.metacubex.one
-
-  - DOMAIN-KEYWORD,pttime
+clash.razord.top
+yacd.haishan.me
+yacd.metacubex.one
+clash.metacubex.one
