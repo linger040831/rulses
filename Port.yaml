@@ -1,5 +1,4 @@
 payload:
-  - DST-PORT,22
   - DST-PORT,80
   - DST-PORT,443
   - DST-PORT,2052
